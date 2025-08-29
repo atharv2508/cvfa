@@ -1,9 +1,35 @@
+# --- Web Framework ---
 flask
 flask-cors
-Pillow
-numpy
+gunicorn
+waitress
+
+# --- Image Processing ---
+pillow
+numpy>=1.26
 scipy
 scikit-image
-scikit-learn
 opencv-python
-opencv-contrib-python
+opencv-contrib-python  # optional: advanced CV algorithms
+
+# --- Machine Learning / Clustering ---
+scikit-learn
+
+# --- AWS & Cloud ---
+boto3
+botocore
+
+# --- MongoDB ---
+pymongo
+
+# --- Environment Variables ---
+python-dotenv
+
+# --- Data Validation ---
+pydantic
+
+# --- Utilities ---
+typing-extensions
+# --- WSGI Servers ---
+waitress  # for Windows local testing
+gunicorn  # for Linux/production (EC2)
